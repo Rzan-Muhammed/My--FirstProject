@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Gravitas+One&family=Oswald:wght@200..700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+   font-family: "Gravitas One", serif ;
+  overflow-x: hidden;
+  /* overflow-y: hidden; */
+   
+}
+
+.loooog{
+    width: 50px;
+    margin-top: 30px;
+}
+
+a{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+
+.noov{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+ 
+}
+
+#homee {
+    min-height: 100vh;
+  background-image: linear-gradient(to top  , transparent, rgb(252, 5, 219)  ,rgb(170, 34, 147),rgb(110, 13, 110) );
+    color: azure;
+}
+.cont1{
+    margin: 0 4rem;
+    /* background-color: rgb(233, 175, 233); */
+    height: 100%;
+}
+ul{
+    display:flex;
+    gap: 20px;
+    align-items: center;
+   margin-right: 3rem;
+  
+}
+.onet{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90%;
+}
+
+.text h1{
+    font-weight: 30;
+    font-size: 31px;
+    color: black;
+}
+.span{
+    color: brown;
+    font-weight: 300;
+}
+.text p {
+    width: 50%;
+    margin-bottom: 30px; 
+}
+.onet img{
+    margin-right: 50px;
+      width: 113px;
+      animation: anmm1 1s ease-out ;
+}
+/* .sso{ */
+    /* color: coral; */
+   
+/* } */
+.sso a i {
+    color: coral;
+    font-size: 30px;
+      animation: anmm1 1s ease-out ;
+}
+.three{
+    width: 200px;
+    display: block;
+    margin: 40px  auto 0;
+     margin-top:60px;
+    animation: anmm2 1s ease-out;
+    
+}
+@keyframes anmm1 {
+    0%{
+        transform: translateX(1000px);
+    }
+100%{
+    transform: translateX(0);
+}
+}
+@keyframes anmm2 {
+0%{
+        transform: translateY(500px);
+    }
+100%{
+    transform: translateY(0);
+}
+}
+.onet .view{
+    background-color: azure;
+    padding: 20px 20px ;
+ 
+     margin-top: 30px; 
+     border-radius: 30px;
+     transition: 2s;
+}
+.view:hover{
+  background: transparent;
+  border: 1px solid #678;
+
+}
+
+@media  (max-width: 700px){
+.noov{
+    display: block;
+}
+.onet{
+    display: flex;
+   flex-direction: column;
+   text-align: center;
+}
+.text p{
+    width: 100%;
+}
+.onet img{
+    margin-top: 30px;
+    position: relative;
+    left: 20px;
+    margin-bottom: 30px;
+}
+.three{
+    width: 120px;
+    margin-top: 70px;
+}
+.loooog{
+    display: block;
+    margin: auto;
+    margin-bottom: 30px;
+}
+    
+}
